@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# 
-Website
-[1]: https://snocks.github.io/OurWebsite/
-=======
+# Website https://snocks.github.io/OurWebsite/
+
+===========
 
 # What:
 Our site is an example of a design company offering their services to customers like
@@ -28,4 +26,4 @@ the css code for our site.
 
 **Finally** , we create github page for this site
 ,our Web site link is [snorks website](https://snocks.github.io/OurWebsite/)
->>>>>>> 66cf4d6ff3d4557ad2148313f38fb75f096aee20
+
