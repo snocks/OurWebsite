@@ -8,13 +8,17 @@ body {
     font-family: Helvetica, sans-serif;
     background: url(images/stripe.png) repeat;
 }
-
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000C2E;
 }
 
 li {
@@ -30,11 +34,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #FFB700;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FFB700;
 }
 
 .header{
@@ -43,6 +47,72 @@ li a:hover:not(.active) {
     height:600px;
 }
 
+.header h1{
+    text-align: center;
+    font-size: 68px;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.headerBtn{
+    background-color: #FFB700;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+
+#about{
+    background-color: #ecf0f1;
+    text-align: center;
+    height: 300px;
+}
+#about h1 {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+#services{
+    text-align: center;
+    height: 250px;
+    background-color: #bdc3c7;
+    margin-top: 20px;
+}
+#services h1{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.offers{
+    float: left;
+    width: 50%;
+}
+#team{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.TNames{
+    text-align: center;
+}
+
+.TNames h4{
+    margin-top: 10px;
+}
+#team img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /*align-items: space-between;*/
+}
 
 
 
@@ -201,4 +271,9 @@ label {
     width: 100px;
     padding-top: 5px;
     font-size: 1.4em;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
