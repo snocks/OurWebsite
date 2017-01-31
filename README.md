@@ -1,5 +1,5 @@
-# Website [Link]
-[Link]: https://snocks.github.io/OurWebsite/
+# Website https://snocks.github.io/OurWebsite/
+
 ===========
 
 # What:
