@@ -1,6 +1,6 @@
-# Website
-[1]: https://snocks.github.io/OurWebsite/
-=======
+# Website https://snocks.github.io/OurWebsite/
+
+===========
 
 # What:
 Our site is an example of a design company offering their services to customers like
