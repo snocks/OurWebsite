@@ -27,7 +27,10 @@ the css code for our site.
 **Finally** , we create github page for this site.
 
 
+
   **_Also we satisfied these user stories:_**
+
+ 
 
 As a **client looking to hire a team of developers**
 > I want to **visit your site and immediately see a headline about your team**
@@ -64,6 +67,3 @@ As a **blind client...**
 > I would like to **easily understand how to navigate the site after my screen reader reads me the content of the site**
 
 > so I can **understand the information available**.
-
-As a **client who still uses Internet Explorer 7 on an ancient TINY computer with JavaScript disabled for annoying security reasons**
->  I would like **to visit your site and get a similar experience to viewing your site on a modern browser**
