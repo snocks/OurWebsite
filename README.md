@@ -26,7 +26,7 @@ the css code for our site.
 
 **Finally** , we create github page for this site.
 
- # Also we satisfied these user stories:
+ **Also we satisfied these user stories:**
 
 As a **client looking to hire a team of developers**
 > I want to **visit your site and immediately see a headline about your team**
