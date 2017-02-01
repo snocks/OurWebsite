@@ -187,6 +187,7 @@ li a:hover:not(.active) {
     padding-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
  
 input[type=text], select {
