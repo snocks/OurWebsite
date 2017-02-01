@@ -3,27 +3,25 @@
     padding: 0px;
 }
 body{
-    overflow-x: none;
+    overflow-x: hidden;
 }
+
 hr{
     color: #000C2E;
     width: 25%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-nav{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
     background-color: #000e26;
     height: 50px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 li {
@@ -48,11 +46,13 @@ li a:hover:not(.active) {
     background-color: #ffcb00 ;
 }
 
+
+
 .header{
     background-image: url("img/header-bg-xs.jpg");
     background-size: cover;
     margin-top: 50px;
-    width: 100%;
+    /*width: 100%;*/
     height:600px;
     text-align: center;
 }
@@ -144,6 +144,7 @@ li a:hover:not(.active) {
     width:100%;
     background-color: #eee;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 .container2{
     display: flex;
@@ -162,7 +163,7 @@ li a:hover:not(.active) {
 .TNames{
     text-align: center;
     margin:0px auto;
-    width: 300px;
+    width: auto;
     height:auto;
 }
 
@@ -183,10 +184,11 @@ li a:hover:not(.active) {
 #contact{
     height: auto;
     width:100%;
-    background-color: #ccc;
+    background-color: #eee;
     padding-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
+    margin-top: 20px;
     text-align: center;
 }
  
@@ -353,14 +355,14 @@ input[type=submit]:hover {
   background-color: #ddd;
 }
 
-#myBar, #myBar1{
+#myBar{
   /*position: absolute;*/
   width: 0%;
   height: 100%;
   background-color: #4CAF50;
 }
 
-#label, #label1{
+#label{
   text-align: center;
   line-height: 30px;
   color: white;
@@ -383,25 +385,165 @@ input[type=submit]:hover {
 
 
 
+@media only screen and (max-width: 768px) and (min-width: 425px)  {
 
 
 
+    #about h1 {
+        font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #about p {
+        font-size: 16px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: justify;
+        width: 80%;
+        margin:0px auto;
+    }
+
+     #services{
+        text-align: center;
+        height: 350px;
+        width:100%;
+        background-color: #eee;
+        margin-top: 20px;
+    }
+    #services h1{
+        font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .offers{
+    /*float: left;*/
+    width: 50%;
+    }
+    .offers h3{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        padding-bottom: 20px;
+
+    }
+    .offers span{
+        font-size: 13px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #2C3E50;
+    }
+    .offers i{
+        font-size: 50px;
+        color: #ffcb00;
+    }
 
 
+    /* For tablets: */
+    #team{
+        text-align: center;
+        height: auto;
+        width:100%;
+        background-color: #eee;
+        margin-top: 20px;
+    }
+    .container2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #team h1{
+        font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .TNames{
+        text-align: center;
+        margin:0px auto;
+        width: 100px;
+        height:auto;
+    }
 
+    .TNames h4{
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        margin-top: 10px;
 
-
-
-
-
-
-
-
+    }
+    #team img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
 
 
 
 /* For mobile phones: */
-@media only screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
+
+    #about h1 {
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    #about p {
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: justify;
+        width: 80%;
+        margin:0px auto;
+    }
+
+
+
+
+    #services{
+        text-align: center;
+        height: 350px;
+        width:100%;
+        background-color: #eee;
+        margin-top: 20px;
+    }
+    #services h1{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .offers{
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+    }
+    .offers h3{
+        font-size: 10px;
+        font-family: 'Lato', sans-serif;
+        padding-bottom: 20px;
+
+    }
+    .offers span{
+        font-size: 8px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #2C3E50;
+    }
+    .offers i{
+        font-size: 30px;
+        color: #ffcb00;
+    }
+
     #team{
         text-align: center;
         height: auto;
@@ -446,53 +588,161 @@ input[type=submit]:hover {
         height: 110px;
         border-radius: 50%;
         cursor: pointer;
-    
-}
+    }
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    input[type=email], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    textarea[type=text-area], select {
+        width: 100%;
+        height: 100px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
 
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    /* For tablets: */
-    #team{
-        text-align: center;
-        height: auto;
-        width:100%;
-        background-color: #eee;
-        margin-top: 20px;
-    }
-    .container2{
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    #team h1{
-        font-size: 60px;
-        font-family: 'Lato', sans-serif;
-        font-weight: 900;
-        padding-top: 40px;
-        padding-bottom: 20px;
-    }
-    .TNames{
-        text-align: center;
-    }
-
-    .TNames h4{
-        font-size: 18px;
+    input[type=submit] {
+        width: 100%;
+        background-color: #ffcb00;
+        color: #000e26;
+        font-size: 16px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 700;
-        margin-top: 10px;
-
-    }
-    #team img{
-        width: 250px;
-        height: 250px;
-        border-radius: 50%;
+        padding: 14px 20px;
+        margin: 8px auto;
+        border: none;
+        border-radius: 10px;
         cursor: pointer;
     }
-}
+    #footer h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 5px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #000e26;
+        height: 30px;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
 
-}
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 16px;
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    li a:hover:not(.active) {
+    background-color: #ffcb00 ;
+    padding: 8px 8px;
+    }
+    .active {
+    background-color: #ffcb00 ;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 8px 8px;
+    }
+        /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        -webkit-animation-name: fadeIn; /* Fade in the background */
+        -webkit-animation-duration: 0.4s;
+        animation-name: fadeIn;
+        animation-duration: 0.4s
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        width: 100%;
+        height: 600px;
+        -webkit-animation-name: slideIn;
+        -webkit-animation-duration: 0.4s;
+        animation-name: slideIn;
+        animation-duration: 0.4s;
+        text-align: center ;
+    }
+
+    /* The Close Button */
+    .close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ccc
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .modal-header {
+        padding: 10px 16px 0px 10px;
+        background-color: #fff;
+        color: white;
+    }
+
+    .modal-body {
+        padding: 2px 16px
+        margin: 0px auto;
+    }
+    .modal-body h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 30px;
+    }
+    .paragraph{
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 50%;
+        text-align: justify;
+    }
+    .paragraph p{
+        display: inline;
+        margin: 0 auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+    }
 
 }
