@@ -188,11 +188,8 @@ li a:hover:not(.active) {
     padding-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
-<<<<<<< HEAD
     margin-top: 20px;
-=======
     text-align: center;
->>>>>>> d8e347c7a14238ec4fd3a901804cc9150c67afb2
 }
  
 input[type=text], select {
