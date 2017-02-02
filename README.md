@@ -1,5 +1,7 @@
 # Website https://snocks.github.io/OurWebsite/
 
+![alt text](https://raw.githubusercontent.com/snocks/OurWebsite/master/img/logo.png)
+
 ===========
 
 # What:
@@ -25,6 +27,7 @@ the css code for our site.
 **Third** , we push that files on github.
 
 **Finally** , we create github page for this site.
+
 
 
 
