@@ -25,7 +25,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -37,14 +37,16 @@ li a {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
 }
+li img{
+    width:200px;
+    height:50px;
+    padding:0px;
+}
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #ffcb00 ;
 }
 
-.active {
-    background-color: #ffcb00 ;
-}
 
 
 
@@ -186,10 +188,26 @@ li a:hover:not(.active) {
     width:100%;
     background-color: #eee;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     margin-top: 20px;
     text-align: center;
+}
+#contact h1{
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+form{
+    width: 50%;
+    margin:0px auto;
+    text-align: left;
+}
+label{
+    margin-left: 10px;
 }
  
 input[type=text], select {
@@ -386,9 +404,56 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 768px) and (min-width: 425px)  {
+    .header{
+    background-image: url("img/header-bg-xs.jpg");
+    background-size: cover;
+    margin-top: 30px;
+    /*width: 100%;*/
+    height:600px;
+    text-align: center;
+    }
 
+    .header h1{
+        font-size: 52px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 60px;
+        color: #fff;
+    }
+    .header a {
+        text-decoration: none;
+    }
+    .headerBtn{
+        background-color: #ffcb00;
+        border: none;
+        color: white;
+        padding: 13px 30px;
+        text-align: center;
+        display: inline;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        margin: 101px auto;
+        cursor: pointer;
+        border-radius: 5%;
+    }
 
-
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 12px;
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    li img{
+        width:100px;
+        height:25px;
+        padding:0px;
+        padding-top: 10px;  
+    }
     #about h1 {
         font-size: 60px;
         font-family: 'Lato', sans-serif;
@@ -419,7 +484,6 @@ input[type=submit]:hover {
         padding-bottom: 20px;
     }
     .offers{
-    /*float: left;*/
     width: 50%;
     }
     .offers h3{
@@ -488,6 +552,56 @@ input[type=submit]:hover {
 
 /* For mobile phones: */
 @media screen and (max-width: 425px) {
+        .header{
+    background-image: url("img/header-bg-xs.jpg");
+    background-size: cover;
+    margin-top: 10px;
+    /*width: 100%;*/
+    height:600px;
+    text-align: center;
+    }
+
+    .header h1{
+        font-size: 32px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        padding-top: 50px;
+        color: #fff;
+    }
+    .header a {
+        text-decoration: none;
+    }
+    .headerBtn{
+        background-color: #ffcb00;
+        border: none;
+        color: white;
+        padding: 8px 25px;
+        text-align: center;
+        display: inline;
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        margin: 81px auto;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 8px 8px;
+        text-decoration: none;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    li img{
+        width:100px;
+        height:25px;
+        padding:0px;
+        padding-top: 5px;  
+    }
 
     #about h1 {
         font-size: 20px;
