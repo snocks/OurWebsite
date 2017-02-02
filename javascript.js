@@ -23,18 +23,6 @@ btn.onclick = function() {
           document.getElementById("label").innerHTML = width * 1  + '%';
         }
       }
-      var elem1 = document.getElementById("myBar1");   
-      var width1 = 0;
-      var id = setInterval(frame1, 10);
-      function frame1() {
-        if (width1 >= 90) {
-          clearInterval(id);
-        } else {
-          width1++; 
-          elem1.style.width1 = width1 + '%'; 
-          document.getElementById("label1").innerHTML = width1 * 1  + '%';
-        }
-      }
 
 }
 
